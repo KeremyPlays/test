@@ -1,0 +1,17 @@
+{
+    "hosting": {
+      "public": "public",
+      "headers": [
+        {
+          "source": "**",
+          "headers": [
+            {
+              "key": "X-Frame-Options",
+              "value": "ALLOWALL"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
